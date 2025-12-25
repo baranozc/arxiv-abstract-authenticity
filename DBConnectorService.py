@@ -145,7 +145,7 @@ class DBConnectorService:
         return pd.read_sql_query(query, self.conn)
 
     def delete_log(self, log_id):
-        self.cursor.execute("DELETE FROM history WHERE id = ?", (log_id,))
+        self.cursor.execute("DELETE FROM history WHERE id = ?", (int(log_id),))
         self.conn.commit()
 
     def close_connection(self):
