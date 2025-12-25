@@ -1,0 +1,31 @@
+# --- Python standartlari ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Sanal Ortamlar (Virtual Env) ---
+venv/
+env/
+.env
+.venv/
+
+# --- Veritabani Dosyalari ---
+*.db
+*.sqlite3
+db/*.db
+app_database.db
+
+# --- isletim Sistemi Dosyalari ---
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- IDE Ayarlari ---
+.vscode/
+.idea/
