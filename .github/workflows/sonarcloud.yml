@@ -30,7 +30,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.organization=baranozc_arxiv-abstract-authenticity
-            -Dsonar.projectKey=baranozc
+            -Dsonar.organization=baranozc
+            -Dsonar.projectKey=baranozc_arxiv-abstract-authenticity
             -Dsonar.sources=.
         
